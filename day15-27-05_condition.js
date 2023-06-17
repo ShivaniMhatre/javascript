@@ -17,7 +17,7 @@
 // }
 // else{
 //     console.log(num,"is greater!!!!!")
-// }
+// 5
 
 
 // Q. Check user age and provide licence

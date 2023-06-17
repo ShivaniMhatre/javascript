@@ -51,18 +51,24 @@
 // 3 + 89 + 1 = 93
 
 
-var target = 25;
-var a, b, c, d;
-var arr = [2, 3, 5, 5, 32, 54, 23, 12, 45, 23, 43, 1, 34, 65, 1, 54, 6, 33, 4, 9, 7];
-for (var a = 0; a < arr.length - 3; a++) {
-    for (var b = a + 1; b < arr.length - 2; b++) {
-        for (var c = a+ 2; c < arr.length - 1; c++) {
-            for (d = a + 3; d < arr.length; d++) {
-                if (arr[a] + arr[b] + arr[c] + arr[d] == target) {
-                    console.log(arr[a], arr[b], arr[c], arr[d], "got it..");
-                    //   console.log(arr[a],"+",arr[b],"+",arr[c],"+",arr[d],"=",arr[a]+arr[b]+arr[c]+arr[d]);
-                }
-            }
-        }
-    }
-}
+// var target = 25;
+// var a, b, c, d;
+// var arr = [2, 3, 5, 5, 32, 54, 23, 12, 45, 23, 43, 1, 34, 65, 1, 54, 6, 33, 4, 9, 7];
+// for (var a = 0; a < arr.length - 3; a++) {
+//     for (var b = a + 1; b < arr.length - 2; b++) {
+//         for (var c = a+ 2; c < arr.length - 1; c++) {
+//             for (d = a + 3; d < arr.length; d++) {
+//                 if (arr[a] + arr[b] + arr[c] + arr[d] == target) {
+//                     console.log(arr[a], arr[b], arr[c], arr[d], "got it..");
+//                     //   console.log(arr[a],"+",arr[b],"+",arr[c],"+",arr[d],"=",arr[a]+arr[b]+arr[c]+arr[d]);
+//                 }
+//             }
+//         }
+//     }
+// }
+
+// var arr=[2,3,44,5,6,6,7,8,8];
+// console.log(arr.length);
+// for(var i=arr.length;i>=0;i--){
+//     console.log(arr[i])
+// }
