@@ -24,16 +24,16 @@
 //In CONST Keyword - There is reassign redeclare and hoisting all are not possible,and assign the value whenever you declare 
 
 
-function outter(){
-    var myMarks=90;
-    console.log("Inside Outter Function" );
-    function inner(){
-        console.log("Inside Inner Function",myMarks);
+function outter() {
+    var myMarks = 90;
+    console.log("Inside Outter Function");
+    function inner() {
+        console.log("Inside Inner Function", myMarks);
     }
-     return inner;
+    return inner;
 }
 
-const res=outter()
+const res = outter()
 console.log(res())
 // res ke andar function store hoga with value
 
